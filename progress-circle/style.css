@@ -6,16 +6,36 @@
 
 body {
   font-size: 100%;
-  height: 2000px;
-  background-color: rgb(249, 249, 249);
+  height: 5000px;
+  background-image: linear-gradient(
+    #db880c,
+    white,
+    #c1a208,
+    white,
+    #d0aa10,
+    white
+  );
 }
 
 .progress {
   width: 5rem;
   height: 5rem;
-  border: 2px solid rgb(0, 0, 0);
   position: fixed;
   bottom: 4rem;
   right: 4rem;
   border-radius: 50%;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#to-top {
+  width: 90%;
+  height: 90%;
+  background-color: white;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
